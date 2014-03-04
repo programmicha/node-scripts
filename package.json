@@ -19,6 +19,7 @@
     "async": "0.2.x",
     "cheerio": "0.13.x",
     "data2xml": "0.9.x",
+    "highlight.js": "8.0.0",
     "request": "2.30.x"
   },
   "devDependencies": {

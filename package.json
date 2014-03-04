@@ -1,0 +1,31 @@
+{
+  "name": "node-scripts",
+  "version": "0.0.1",
+  "main": "lib/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/*.js",
+    "debug-test": "mocha --debug-brk --reporter spec test/*.js",
+    "cover-test": "istanbul cover _mocha -- -u exports -R spec test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/programmicha/node-scripts"
+  },
+  "author": "Michael R. Pralow <me@michael-pralow.de> (http://programmicha.de/)",
+  "dependencies": {
+    "async": "0.2.x",
+    "cheerio": "0.13.x",
+    "data2xml": "0.9.x",
+    "request": "2.30.x"
+  },
+  "devDependencies": {
+    "mocha": "1.10.x",
+    "should": "1.2.x"
+  },
+  "engines": {
+    "node": ">=0.10.10"
+  }
+}
